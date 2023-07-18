@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100&family=Open+Sans:ital,wght@0,500;0,600;0,800;1,400;1,500&family=Poppins:wght@500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+  .primary-color{
+    color: #FF42A5;
+  }
+body{
+    /* width: 80%;
+    margin: auto; */
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.nav-container .nav-img{
+width: 50px;
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-title{
+    text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.nav-items{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    
+}
+.nav-items a{
+    text-decoration: none;
+    padding: 30px;
+    
+}
+.nav-icon{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+text-align: center;
+
+padding: 10px;
+}
+.fa-youtube{
+   color: rgba(246, 28, 13, 1);
+    margin-right: 16px;
+ 
+}
+
+
+
+.nav-pic{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+
+
+@media screen and (max-width:550px) {
+    .nav-container{
+        flex-direction: column;
+
+    }
+    .nav-pic{
+        justify-content: center;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (min-width:551px) and (max-width:950px) {
+    
+} 

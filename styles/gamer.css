@@ -311,6 +311,7 @@ left: 60%;
 width: auto;   */
    
 }
+
 .action-game img{
     height: 60px;
     width: 60px;
@@ -465,17 +466,34 @@ font-weight: 500;
       margin-left: auto;
     }
     .footer-anchor{
-        display: flex;
-        flex-wrap: wrap;
+       display: grid;
+       grid-template-columns: repeat(3,.5fr);
     }
     .before-bottom-part{
-        flex-wrap: wrap;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       margin-left: 20px;
     }
     .footer-bottom{
         padding-top: 20px;
     }
     .card-container{
         flex-direction: column;
+    }
+    .shared-para{
+        font-size: 8px;
+    }
+    .more-games-container{
+        display: grid;
+        grid-template-columns: repeat(3,.2fr);
+    }
+    .action-game img{
+        
+        width: 30px;
+        height: 30px;
+    }
+    .action-game{
+        gap: 10px;
     }
 }
 @media screen and (min-width:551px) and (max-width:950px) {
